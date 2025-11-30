@@ -31,9 +31,11 @@ body {
   justify-content: space-between !important;
   align-items: center;
 }
+
 .netflix-row .left {
   width: max-content;
 }
+
 .netflix-row .right {
   width: max-content;
 }
@@ -85,6 +87,7 @@ i {
   margin-left: 20px;
   cursor: pointer;
 }
+
 .netflix-nav {
   display: block;
   align-items: center;
@@ -122,6 +125,7 @@ i {
   height: 30px;
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #141414);
 }
+
 .netflix-home-video video {
   width: 100%;
 }
@@ -138,9 +142,11 @@ i {
 .netflix-home-video .content .left {
   margin-left: 80px;
 }
+
 .netflix-home-video .content .left img {
   margin-top: 190px;
 }
+
 .netflix-home-video .content .right {
   width: 50%;
 }
@@ -196,7 +202,7 @@ i {
   cursor: pointer;
 }
 
-.card:hover > .card-body {
+.card:hover>.card-body {
   display: block;
   /* height: max-content !important; */
 }
